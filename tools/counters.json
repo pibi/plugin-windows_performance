@@ -1,0 +1,15 @@
+
+[
+{"metric":"PROC_PERCENT_PROCESSOR_TIME", "setIdx": 238, "counterIdx": 6, "path": "\\Processor(*)\\% Processor Time"},
+{"metric":"MEM_AVAILABLE_BYTES", "setIdx": 4, "counterIdx": 24, "path": "\\Memory\\Available Bytes"},
+{"metric":"MEM_PAGES_PERSEC", "setIdx": 4, "counterIdx": 40, "path": "\\Memory\\Pages/sec"},
+{"metric":"PDISK_AVG_DISK_QUEUE_LENGTH", "setIdx": 234, "counterIdx": 1400, "path": "\\PhysicalDisk(*)\\Avg. Disk Queue Length"},
+{"metric":"PDISK_DISK_BYTES_PERSEC", "setIdx": 234, "counterIdx": 218, "path": "\\PhysicalDisk(*)\\Disk Bytes/sec"},
+{"metric":"PDISK_PERCENT_DISK_TIME", "setIdx": 234, "counterIdx": 200, "path": "\\PhysicalDisk(*)\\% Disk Time"},
+{"metric":"LDISK_PERCENT_FREE_SPACE", "setIdx": 236, "counterIdx": 408, "path": "\\LogicalDisk(*)\\% Free Space"},
+{"metric":"TCP4_CONNECTIONS_ESTABLISHED", "setIdx": 638, "counterIdx": 642, "path": "\\TCPv4\\Connections Established"},
+{"metric":"TCP6_CONNECTIONS_ESTABLISHED", "setIdx": 1530, "counterIdx": 642, "path": "\\TCPv6\\Connections Established"},
+{"metric":"NET_OUTPUT_QUEUE_LENGTH", "setIdx": 510, "counterIdx": 544, "path": "\\Network Interface(*)\\Output Queue Length", "instance" : 0}, 
+{"metric":"NET_BYTES_RECEIVED_PERSEC", "setIdx": 510, "counterIdx": 264, "path": "\\Network Interface(*)\\Bytes Received/sec", "instance" : 0}, 
+{"metric":"NET_BYTES_SENT_PERSEC", "setIdx": 510, "counterIdx": 506, "path": "\\Network Interface(*)\\Bytes Sent/sec", "instance" : 0 }
+]

@@ -1,0 +1,124 @@
+{
+    "result": [
+        {
+            "defaultAggregate": "SUM",
+            "defaultResolutionMS": null,
+            "description": "Percentage of the time the processor is busy",
+            "displayName": "Percent Processor Time",
+            "displayNameShort": "PROC - Perc Proc Time",
+            "isDisabled": 0,
+            "name": "PROC_PERCENT_PROCESSOR_TIME",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "SUM",
+            "defaultResolutionMS": null,
+            "description": "Amount of memory available for allocation to a process or for system use",
+            "displayName": "Memory Available Bytes",
+            "displayNameShort": "MEM - Available Bytes",
+            "isDisabled": 0,
+            "name": "MEM_AVAILABLE_BYTES",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": null,
+            "description": "Tracks the number of virtual memory pages read or written per second to or from the virtual memory file.",
+            "displayName": "Memory Page Rate",
+            "displayNameShort": "MEM - Page Rate",
+            "isDisabled": 0,
+            "name": "MEM_PAGES_PERSEC",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": null,
+            "description": "Tracks the average number of items in physical disks queue.",
+            "displayName": "Average Disks Queue Length",
+            "displayNameShort": "PDISK - Disks Queue Length",
+            "isDisabled": 0,
+            "name": "PDISK_AVG_DISK_QUEUE_LENGTH",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": null,
+            "description": "Current read or written rate to or from physical disks.",
+            "displayName": "Disks Bytes Rate",
+            "displayNameShort": "PDISK - Disks Bytes Rate",
+            "isDisabled": 0,
+            "name": "PDISK_DISK_BYTES_PERSEC",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "SUM",
+            "defaultResolutionMS": null,
+            "description": "Percentage of the time the physical disks are busy servicing read or write requests",
+            "displayName": "Percent Disks Time",
+            "displayNameShort": "PDISK - Perc Disks Time",
+            "isDisabled": 0,
+            "name": "PDISK_PERCENT_DISK_TIME",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "SUM",
+            "defaultResolutionMS": null,
+            "description": "FreeSpace is the amount of total free storage space in bytes available on the logical disks",
+            "displayName": "Free space on disks",
+            "displayNameShort": "LDISK - Free disks space",
+            "isDisabled": 0,
+            "name": "LDISK_PERCENT_FREE_SPACE",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": null,
+            "description": "BytesReceivedPersec are the current transmission rates for the specified network card",
+            "displayName": "Network receiving per second",
+            "displayNameShort": "NET - network receiving",
+            "isDisabled": 0,
+            "name": "NET_BYTES_RECEIVED_PERSEC",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": null,
+            "description": "Tracks the average number of items in the output queue of the specified network card.",
+            "displayName": "Average Network Queue Length",
+            "displayNameShort": "NET - Network Queue Length",
+            "isDisabled": 0,
+            "name": "NET_OUTPUT_QUEUE_LENGTH",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": null,
+            "description": "BytesSentPersec are the current transmission rates for the specified network card.",
+            "displayName": "Network sending per second",
+            "displayNameShort": "NET - network sending",
+            "isDisabled": 0,
+            "name": "NET_BYTES_SENT_PERSEC",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "SUM",
+            "defaultResolutionMS": null,
+            "description": "TCP4ConnectionEstablished,  is the current number of established connections, inbound and outbound",
+            "displayName": "TCP/IPv4 Connections",
+            "displayNameShort": "TCP4 - Connections",
+            "isDisabled": 0,
+            "name": "TCP4_CONNECTIONS_ESTABLISHED",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "SUM",
+            "defaultResolutionMS": null,
+            "description": "TCP6ConnectionEstablished,  is the current number of established connections, inbound and outbound",
+            "displayName": "TCP/IPv6 Connections",
+            "displayNameShort": "TCP6 - Connections",
+            "isDisabled": 0,
+            "name": "TCP6_CONNECTIONS_ESTABLISHED",
+            "unit": "number"
+        }
+    ]
+}

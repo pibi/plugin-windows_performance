@@ -1,0 +1,31 @@
+{
+    "description": "Collects statistics from Windows performance counters",
+    "icon": "icon.png",
+    "command": "boundary-meter index.lua",
+    "postExtract": "",
+    "command_lua": "boundary-meter index.lua",
+    "postExtract_lua": "",
+    "metrics": [
+        "PROC_PERCENT_PROCESSOR_TIME",
+        "MEM_AVAILABLE_BYTES",
+        "MEM_PAGES_PERSEC",
+        "PDISK_AVG_DISK_QUEUE_LENGTH",
+        "PDISK_DISK_BYTES_PERSEC",
+        "PDISK_PERCENT_DISK_TIME",
+        "LDISK_PERCENT_FREE_SPACE",
+        "TCP4_CONNECTIONS_ESTABLISHED",
+        "TCP6_CONNECTIONS_ESTABLISHED",
+        "NET_BYTES_RECEIVED_PERSEC",
+        "NET_BYTES_SENT_PERSEC"
+    ],
+    "paramSchema": [
+        {
+            "title": "Poll Time (ms)",
+            "name": "pollInterval",
+            "description": "The Poll Interval to call the command. Defaults 5 seconds",
+            "type": "integer",
+            "default": 5000,
+            "required": true
+        }
+    ]
+}
