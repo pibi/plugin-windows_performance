@@ -50,7 +50,8 @@ function poll(source)
         utils.debug(err or stderr)
         return
       end
-	  
+	 
+	  stdout = stdout:gsub("\r\n", "") --ignore \r\n
 	  local success, results = pcall(json.parse,stdout)	  
 	  if (success) then 
 		outputs(results,source)
