@@ -1,6 +1,6 @@
 Boundary Windows Performance Counters Plugin
 --------------------------
-Collects statistics from Windows performance counters.
+Collects metrics from Windows performance counters.
 
 ### Prerequisites
 
